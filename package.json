@@ -1,0 +1,28 @@
+{
+  "name": "tailwind-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "export-ejs": "node src/bin/export.js",
+    "x-cli": "node src/x-template/cli.js -v src/views -i index.x -o public/index.html",
+    "start": "nodemon src/app.js",
+    "build-css": "tailwindcss build -i src/css/styles.css -o public/css/styles.css",
+    "build-css-w": "tailwindcss build -i src/css/styles.css -o public/css/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "liquidjs": "^10.7.1",
+    "mustache": "^4.2.0",
+    "nodemon": "^2.0.22",
+    "yargs": "^17.7.2"
+  }
+}
