@@ -1,2 +1,3 @@
 node_modules
 src/x-template/*
+src/views/resume.html
