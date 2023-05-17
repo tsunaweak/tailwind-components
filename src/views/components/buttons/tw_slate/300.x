@@ -1,0 +1,1 @@
+<x-components-buttons-btn  x-class="bg-slate-300  hover:bg-slate-400" x-data="{ btn-label: 'Slate 300' }" />

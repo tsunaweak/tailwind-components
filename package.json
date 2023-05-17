@@ -5,10 +5,10 @@
   "main": "src/app.js",
   "scripts": {
     "export-ejs": "node src/bin/export.js",
-    "x-cli": "node src/x-template/cli.js -v src/views -i index.x -o public/index.html",
+    "x-cli": "node src/x-template/cli.js -v src/views",
     "start": "nodemon src/app.js",
     "build-css": "tailwindcss build -i src/css/styles.css -o public/css/styles.css",
-    "build-css-w": "tailwindcss build -i src/css/styles.css -o public/css/styles.css --watch",
+    "build-css-w": "tailwindcss build -i src/css/styles.css -o public/css/styles.css --watch --max-old-space-size",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

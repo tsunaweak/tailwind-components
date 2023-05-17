@@ -1,0 +1,1 @@
+<x-components-buttons-btn  x-class="bg-orange-600 text-white hover:bg-orange-700" x-data="{ btn-label: 'Orange 600' }" />

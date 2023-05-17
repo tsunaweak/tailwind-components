@@ -80,7 +80,7 @@
                         class="text-sky-500 decoration-1 hover:underline"
                         href="#"
                       >
-                        Sign up here
+                        Sign up
                       </a>
                     </div>
                   </div>

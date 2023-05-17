@@ -1,0 +1,1 @@
+<x-components-buttons-btn  x-class="bg-zinc-200  hover:bg-zinc-300" x-data="{ btn-label: 'Zinc 200' }" />
