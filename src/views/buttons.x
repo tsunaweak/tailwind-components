@@ -10,8 +10,8 @@
   <body class="bg-gray-200 font-sans dark:bg-slate-900">
     <div class="m-5">
       <h1 class="text-xl mb-3">Default Template Buttons</h1>
-      <x-components-buttons-sample />
-      <!-- <x-components-buttons-defaults-btn_secondary/>
+      <x-components-buttons-defaults-btn_primary"/>
+      <x-components-buttons-defaults-btn_secondary/>
       <x-components-buttons-defaults-btn_danger />
       <x-components-buttons-defaults-btn_warning/>
       <x-components-buttons-defaults-btn_info/>
@@ -26,7 +26,7 @@
       <x-components-buttons-defaults-btn_fuchsia/>
       <x-components-buttons-defaults-btn_pink/>
       <x-components-buttons-defaults-btn_light/>
-      <x-components-buttons-defaults-btn_dark/> -->
+      <x-components-buttons-defaults-btn_dark/>
     </div>
   
 
