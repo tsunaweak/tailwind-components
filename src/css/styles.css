@@ -6,15 +6,46 @@
   @apply fixed bottom-0 left-0 top-0;
 }
 
+.card {
+  @apply relative flex flex-col rounded-sm;
+  border-color: rgb(226 232 240 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.07),
+    0 4px 6px -2px rgba(15, 23, 42, 0.02);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+    0 4px 6px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.card-header {
+  border-top-left-radius: 0.125rem;
+  border-top-right-radius: 0.125rem;
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(226 232 240 / var(--tw-border-opacity));
+  padding: 1rem;
+  font-weight: 500;
+}
+.card-title{
+  font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(30 41 59 / var(--tw-text-opacity));
+}
+.card-body{
+  padding: 1.5rem
+}
 
-.chk{
-    padding: 0;
-    display: inline-block;
-    vertical-align: middle;
-    background-origin: border-box;
-    flex-shrink: 0;
-    height: 1rem;
-    width: 1rem;
-    background-color: #fff;
-    border-width: 1px;
+.chk {
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  background-origin: border-box;
+  flex-shrink: 0;
+  height: 1rem;
+  width: 1rem;
+  background-color: #fff;
+  border-width: 1px;
 }

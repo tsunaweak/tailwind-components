@@ -1,1 +1,0 @@
-<x-components-buttons-btn  x-class="bg-amber-900 text-white hover:bg-amber-950" x-data="{ btn-label: 'Amber 900' }" />

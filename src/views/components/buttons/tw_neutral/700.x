@@ -1,1 +1,0 @@
-<x-components-buttons-btn  x-class="bg-neutral-700 text-white hover:bg-neutral-800" x-data="{ btn-label: 'Neutral 700' }" />
